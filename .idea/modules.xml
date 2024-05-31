@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/01_Sliding_Window_Pattern.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/01_Sliding_Window_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/1_Max_Sum_Of_SubArray/1_Max_Sum_Of_SubArray.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/1_Max_Sum_Of_SubArray/1_Max_Sum_Of_SubArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/2_Max_Sum_Of_SubArray/2_Max_Sum_Of_SubArray.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/2_Max_Sum_Of_SubArray/2_Max_Sum_Of_SubArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grokking The Coding Interview.iml" filepath="$PROJECT_DIR$/Grokking The Coding Interview.iml" />
+    </modules>
+  </component>
+</project>
