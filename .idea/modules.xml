@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_02_Dynamic_Programming/01_Longest_Increasing_Subsequence/01_Longest_Increasing_Subsequence.iml" filepath="$PROJECT_DIR$/_02_Dynamic_Programming/01_Longest_Increasing_Subsequence/01_Longest_Increasing_Subsequence.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/01_Sliding_Window_Pattern.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/01_Sliding_Window_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_Dynamic_Programming/02_Pascals_Triangle/02_Pascals_Triangle.iml" filepath="$PROJECT_DIR$/_02_Dynamic_Programming/02_Pascals_Triangle/02_Pascals_Triangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/1_Max_Sum_Of_SubArray/1_Max_Sum_Of_SubArray.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/1_Max_Sum_Of_SubArray/1_Max_Sum_Of_SubArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/2_Smallest_SubArray_with_given_Sum/2_Smallest_SubArray_with_given_Sum.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/2_Smallest_SubArray_with_given_Sum/2_Smallest_SubArray_with_given_Sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_Sliding_Window_Pattern/3_Longest_Substring_with_K_Distinct_Chars/3_Longest_Substring_with_K_Distinct_Chars.iml" filepath="$PROJECT_DIR$/01_Sliding_Window_Pattern/3_Longest_Substring_with_K_Distinct_Chars/3_Longest_Substring_with_K_Distinct_Chars.iml" />
