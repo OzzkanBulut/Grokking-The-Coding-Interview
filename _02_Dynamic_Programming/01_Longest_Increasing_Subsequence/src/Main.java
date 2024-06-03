@@ -7,22 +7,22 @@ public class Main {
     }
 
     public static int lengthOfLIS(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp,1);
+       if(nums==null || nums.length==0){
+           return 0;
+       }
+       int[] dp = new int[nums.length];
+       Arrays.fill(dp,1);
 
-// nums = 10,9,2,5,3,7,101,18
-// dp   =  1,1,1,2,2,3,4,3
-        for(int i=1;i<n;i++){
-            for(int j=0;j<i;j++){
-                if(nums[i]>nums[j]){
-                    dp[i]=Integer.max(dp[i],dp[j]+1);
-                }
-            }
-        }
+       // 10,9,2,5,3,7,101,18
+       //  1,1,1,1,1,1,1,1
+       for(int i=1;i<nums.length;i++){
+           for(int j=0;j<i;j++){
+               if(nums[i]>nums[j]){
+                   dp[i] = Integer.max(dp[i],dp[j]+1);
+               }
+           }
+       }
+
         int maxLength = Arrays.stream(dp).max().orElse(0);
         return maxLength;
     }
