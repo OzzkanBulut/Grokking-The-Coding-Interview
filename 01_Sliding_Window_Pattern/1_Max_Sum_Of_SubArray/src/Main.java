@@ -7,21 +7,24 @@ public class Main {
     }
 
     public static int findMaxSumOfSubArray(int[] arr, int k) {
-        int sum = 0;
-        int answer = 0;
-        int windowStart = 0;
-        for(int windowEnd=0;windowEnd<k;windowEnd++){
-            sum = sum + arr[windowEnd];
-            answer = sum;
-        }
+        int windowStart =0;
+        int maxSum = 0;
+        int sum =0;
+        int counter=0;
 
-        for(int windowEnd = k;windowEnd<arr.length;windowEnd++){
-            sum = sum + arr[windowEnd]-arr[windowStart];
-            if(sum>=answer){
-                answer = sum;
+        for(int windowEnd=0;windowEnd<arr.length;windowEnd++){
+            sum = sum+arr[windowEnd];
+            counter++;
+
+
+            while(counter>k){
+                sum = sum - arr[windowStart];
+                windowStart++;
+                counter--;
             }
-            windowStart++;
+            maxSum = Integer.max(maxSum,sum);
+
         }
-        return answer;
+        return maxSum;
     }
 }
